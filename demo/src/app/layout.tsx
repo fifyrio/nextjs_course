@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
-import { Reddit_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
 
-const inter = Reddit_Mono({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
