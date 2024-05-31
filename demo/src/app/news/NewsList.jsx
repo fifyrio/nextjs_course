@@ -1,28 +1,29 @@
+import next from 'next'
 import React from 'react'
 import Image from 'next/image'
 
 async function fetchData() {
-    const res = await fetch("https://661f5b2c16358961cd941ae5.mockapi.io/api/v1/cars");
-    return res.json();
+    const dataList = await fetch("http://localhost:4000/news", {next: {revalidate: 30}})
+    return dataList.json()
 }
 
 export default async function NewsList() {
-    const dataList = await fetchData();
+    const dataList = await fetchData()
   return (
     <>
-        {dataList.map((item)=>(
-            <div key={item.id} className='card my-5'>
-                <Image
-                    src={item.imageUrl}
-                    width={100}
-                    height={100}
-                    alt={item.modelType}
-                />
-                <h3>{item.modelType}</h3>
-                <p>{item.price}</p>
-                <p>{item.date}</p>                
-            </div>
-        ))}
+    {dataList.map((item)=>(
+        <div key={item.id} className='card my-5'>
+            <h3>{item.title}</h3>
+            <p>{item.description}</p>
+            <p>{item.publishedAt}</p>
+            <Image
+                src={item.urlToImage}
+                width={100}
+                height={100}
+                alt="Picture of the author"
+            />
+        </div>
+    ))}
     </>
   )
 }

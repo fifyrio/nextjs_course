@@ -13,8 +13,7 @@ export default function Navbar() {
           height={44}
           alt="Picture of the author"
         />
-        <Link href="/">Home</Link>
-        <Link href="/tickets">Tickets</Link>
+        <Link href="/">Home</Link>        
         <Link href="/news">News</Link>
     </nav>
   )
