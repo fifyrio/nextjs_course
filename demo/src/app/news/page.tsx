@@ -1,8 +1,11 @@
 import React from 'react'
+import NewsList from './NewsList'
 
 export default function News() {
   return (
-    <div>News</div>
+    <main>
+      <NewsList></NewsList>
+    </main>
   )
 }
 
