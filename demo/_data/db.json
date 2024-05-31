@@ -1,34 +1,41 @@
 {
-    "news": [
-        {
-            "id": 1,
-            "author": "Michael Wayland11",
-            "title": "Jeep reveals all-electric Wagoneer S in EV offensive, starting at $72,000 - CNBC 112",
-            "description": "The Stellantis-owned brand revealed a \"new chapter\" for the quintessential American SUV brand that has struggled with domestic sales in recent years.",
-            "url": "https://www.cnbc.com/2024/05/30/wagoneer-s-jeeps-ev-suv-72000.html",
-            "urlToImage": "https://nigeriantech.com.ng/wp-content/uploads/2022/06/249311E6-5AD1-4DA2-BFCA-03034153CF2E.webp",
-            "publishedAt": "2024-05-30T23:00:02Z",
-            "content": "NEW YORK The first all-electric Jeep SUV for the U.S. will be the 2024 Wagoneer S, starting at about $72,000 when it's scheduled to go on sale this fall.\r\nThe Stellantis-owned brand revealed the vehi… [+6387 chars]"
-        },
-        {
-            "id": 2,
-            "author": "Brooke DiPalma",
-            "title": "Costco Q3 earnings beat all key metrics, after shares closed at an all-time high - Yahoo Finance",
-            "description": "Costco's value proposition drove results in its third fiscal quarter.",
-            "url": "https://finance.yahoo.com/news/costco-q3-earnings-beat-all-key-metrics-after-shares-closed-at-an-all-time-high-204841304.html",
-            "urlToImage": "https://nigeriantech.com.ng/wp-content/uploads/2022/06/249311E6-5AD1-4DA2-BFCA-03034153CF2E.webp",
-            "publishedAt": "2024-05-30T22:37:02Z",
-            "content": "Costco (COST) posted another bulk-sized quarter as consumers look for wallet-friendly prices on everyday essentials.\r\nOn Thursday afternoon, the company reported net sales of $58.52 billion, compared… [+4531 chars]"
-        },
-        {
-            "id": 3,
-            "author": "Gregory Wallace",
-            "title": "3-hour meeting ends with FAA saying Boeing can’t increase Max plane production until quality is fixed - CNN",
-            "description": "Boeing executives presented sweeping changes to the company’s production process and safety systems in a three-hour meeting with the Federal Aviation Administration on Thursday. The plan is meant to reassure the public, airline customers and regulators that t…",
-            "url": "https://www.cnn.com/2024/05/30/business/boeing-safety-plan-faa/index.html",
-            "urlToImage": "https://nigeriantech.com.ng/wp-content/uploads/2022/06/249311E6-5AD1-4DA2-BFCA-03034153CF2E.webp",
-            "publishedAt": "2024-05-30T22:25:00Z",
-            "content": "Boeing executives presented sweeping changes to the companys production process and safety systems in a three-hour meeting with the Federal Aviation Administration on Thursday. The plan is meant to r… [+6588 chars]"
-        }
-    ]
+  "news": [
+    {
+      "id": "1",
+      "author": "Michael Wayland11",
+      "title": "Jeep reveals all-electric Wagoneer S in EV offensive, starting at $72,000 - CNBC 112",
+      "description": "The Stellantis-owned brand revealed a \"new chapter\" for the quintessential American SUV brand that has struggled with domestic sales in recent years.",
+      "url": "https://www.cnbc.com/2024/05/30/wagoneer-s-jeeps-ev-suv-72000.html",
+      "urlToImage": "https://nigeriantech.com.ng/wp-content/uploads/2022/06/249311E6-5AD1-4DA2-BFCA-03034153CF2E.webp",
+      "publishedAt": "2024-05-30T23:00:02Z",
+      "content": "NEW YORK The first all-electric Jeep SUV for the U.S. will be the 2024 Wagoneer S, starting at about $72,000 when it's scheduled to go on sale this fall.\r\nThe Stellantis-owned brand revealed the vehi… [+6387 chars]"
+    },
+    {
+      "id": "2",
+      "author": "Brooke DiPalma",
+      "title": "Costco Q3 earnings beat all key metrics, after shares closed at an all-time high - Yahoo Finance",
+      "description": "Costco's value proposition drove results in its third fiscal quarter.",
+      "url": "https://finance.yahoo.com/news/costco-q3-earnings-beat-all-key-metrics-after-shares-closed-at-an-all-time-high-204841304.html",
+      "urlToImage": "https://nigeriantech.com.ng/wp-content/uploads/2022/06/249311E6-5AD1-4DA2-BFCA-03034153CF2E.webp",
+      "publishedAt": "2024-05-30T22:37:02Z",
+      "content": "Costco (COST) posted another bulk-sized quarter as consumers look for wallet-friendly prices on everyday essentials.\r\nOn Thursday afternoon, the company reported net sales of $58.52 billion, compared… [+4531 chars]"
+    },
+    {
+      "id": "3",
+      "author": "Gregory Wallace",
+      "title": "3-hour meeting ends with FAA saying Boeing can’t increase Max plane production until quality is fixed - CNN",
+      "description": "Boeing executives presented sweeping changes to the company’s production process and safety systems in a three-hour meeting with the Federal Aviation Administration on Thursday. The plan is meant to reassure the public, airline customers and regulators that t…",
+      "url": "https://www.cnn.com/2024/05/30/business/boeing-safety-plan-faa/index.html",
+      "urlToImage": "https://nigeriantech.com.ng/wp-content/uploads/2022/06/249311E6-5AD1-4DA2-BFCA-03034153CF2E.webp",
+      "publishedAt": "2024-05-30T22:25:00Z",
+      "content": "Boeing executives presented sweeping changes to the companys production process and safety systems in a three-hour meeting with the Federal Aviation Administration on Thursday. The plan is meant to r… [+6588 chars]"
+    },
+    {
+      "id": "4f00",
+      "title": "Hello",
+      "description": "desc",
+      "urlToImage": "https://nigeriantech.com.ng/wp-content/uploads/2022/06/249311E6-5AD1-4DA2-BFCA-03034153CF2E.webp",
+      "publishedAt": "2024.05.30"
+    }
+  ]
 }

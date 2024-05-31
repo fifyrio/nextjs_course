@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 async function fetchData() {
-    const dataList = await fetch("http://localhost:4000/news", {next: {revalidate: 30}})
+    const dataList = await fetch("http://localhost:4000/news", {next: {revalidate: 0}})
     return dataList.json()
 }
 
