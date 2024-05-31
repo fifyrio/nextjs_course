@@ -1,10 +1,16 @@
+import { ok } from 'assert';
 import React from 'react'
-import Image from 'next/image'
-
+import { notFound } from 'next/navigation';
+import Image from 'next/image';
 async function fetchDetail(id) {    
-    const data = await fetch("http://localhost:4000/news/"+id, 
+    const res = await fetch("http://localhost:4000/news/"+id, 
     {next: {revalidate: 0}})
-    return data.json();
+
+    if (!res.ok) {
+        notFound();
+    }
+
+    return res.json();
 }
 
 export default async function NewsDetail({params}) {
